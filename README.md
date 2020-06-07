@@ -8,7 +8,7 @@ download FallFury from the Windows Store&nbsp;Marketplace</a>!</p>
 <h2>Download Source</h2>
 <p><a href="https://fallfury.codeplex.com/releases/" target="_blank"><img src="http://www.codeplex.com/Download?ProjectName=fallfury&DownloadId=599304" alt="" width="240" height="75"></a>
 <a href="http://fallfury.codeplex.com/SourceControl/list/changesets" target="_blank">
-<img src="static/home_download_source.png" alt="" width="240" height="75"></a></p>
+<img src="static/Home_download_source.png" alt="" width="240" height="75"></a></p>
 <h2>Learn</h2>
 <ol>
 <li><a href="http://channel9.msdn.com/coding4fun/articles/Fall-Fury-Part-1-Introduction">Introduction
