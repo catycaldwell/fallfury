@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="ARM - Debug|ARM">
+      <Configuration>ARM - Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ARM - Debug|Win32">
+      <Configuration>ARM - Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ARM - Debug|x64">
+      <Configuration>ARM - Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ARM - Release|ARM">
+      <Configuration>ARM - Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ARM - Release|Win32">
+      <Configuration>ARM - Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ARM - Release|x64">
+      <Configuration>ARM - Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - Debug|ARM">
+      <Configuration>Desktop - Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - Debug|Win32">
+      <Configuration>Desktop - Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - Debug|x64">
+      <Configuration>Desktop - Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - Release|ARM">
+      <Configuration>Desktop - Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - Release|Win32">
+      <Configuration>Desktop - Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - Release|x64">
+      <Configuration>Desktop - Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - x64|ARM">
+      <Configuration>Desktop - x64</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - x64|Win32">
+      <Configuration>Desktop - x64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Desktop - x64|x64">
+      <Configuration>Desktop - x64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{69dc54c7-d68a-418d-9bb9-3844c4724199}</ProjectGuid>
+    <RootNamespace>Coding4Fun.FallFury</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ProjectName>Coding4Fun.FallFury</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <PackageCertificateKeyFile>Coding4Fun.FallFury_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>C:\work\coding4fun\fallfury\Packages\1.0.40\</AppxPackageDir>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+    <PackageCertificateThumbprint>7C415F23F79351A526EFBD00F72C4F019A892BA5</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">
+    <CustomBuildAfterTargets>BscMake</CustomBuildAfterTargets>
+    <CustomBuildBeforeTargets>PostBuildEvent</CustomBuildBeforeTargets>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>d2d1.lib;d3d11.lib;dxgi.lib;ole32.lib;windowscodecs.lib;dwrite.lib;dxguid.lib;xaudio2.lib;xinput.lib;mfcore.lib;mfplat.lib;mfreadwrite.lib;mfuuid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+      <WindowsMetadataFile Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">$(OutDir)$(RootNamespace).winmd</WindowsMetadataFile>
+    </Link>
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|ARM'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|ARM'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|x64'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">4453</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">4453</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include=".\DXCore\BasicLoader.h" />
+    <ClInclude Include=".\DXCore\DDSTextureLoader.h" />
+    <ClInclude Include=".\Characters\Bear.h" />
+    <ClInclude Include="DXCore\SizeEnums.h" />
+    <ClInclude Include="Entities\SizeEnums.h" />
+    <ClInclude Include="GameScreens\GameCompleteScreen.h" />
+    <ClInclude Include="GameScreens\GenericCloudScreen.h" />
+    <ClInclude Include=".\Entities\Button.h" />
+    <ClInclude Include="Audio\AudioManager.h" />
+    <ClInclude Include="Audio\AudioEngine.h" />
+    <ClInclude Include="Characters\LivingEntity.h" />
+    <ClInclude Include="Characters\LivingEntityState.h" />
+    <ClInclude Include="Characters\Monster.h" />
+    <ClInclude Include="Controls\HealthBar.xaml.h">
+      <DependentUpon>Controls\HealthBar.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="Entities\AmmoItem.h" />
+    <ClInclude Include="Entities\BasicShapes.h" />
+    <ClInclude Include="Entities\GameState.h" />
+    <ClInclude Include=".\GameScreens\GameScreenBase.h" />
+    <ClInclude Include="Entities\LevelType.h" />
+    <ClInclude Include="Entities\MonsterType.h" />
+    <ClInclude Include="Entities\Obstacle.h" />
+    <ClInclude Include="Entities\ObstacleType.h" />
+    <ClInclude Include="Entities\PowerupCategory.h" />
+    <ClInclude Include="Entities\PowerupType.h" />
+    <ClInclude Include="Entities\TopScore.h" />
+    <ClInclude Include="GameScreens\GameOverScreen.h" />
+    <ClInclude Include="GameScreens\GamePlayScreen.h" />
+    <ClInclude Include="GameScreens\MenuScreen.h" />
+    <ClInclude Include=".\GameScreens\GameWinScreen.h" />
+    <ClInclude Include="Helpers\BasicMath.h" />
+    <ClInclude Include="Helpers\GameConstants.h" />
+    <ClInclude Include="Helpers\Geometry.h" />
+    <ClInclude Include="Helpers\LocalDiagnostics.h" />
+    <ClInclude Include="Helpers\Timer.h" />
+    <ClInclude Include=".\Helpers\LevelDataLoader.h" />
+    <ClInclude Include="Audio\MediaStreamer.h" />
+    <ClInclude Include="MenuItems\MenuItem.xaml.h">
+      <DependentUpon>MenuItems\MenuItem.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Particle.h" />
+    <ClInclude Include="ParticleSystem\ParticleCore.h" />
+    <ClInclude Include="ParticleSystem\ParticleSet.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h">
+      <DependentUpon>App.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="DirectXPage.xaml.h">
+      <DependentUpon>DirectXPage.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include=".\DXCore\SpriteWorks.h" />
+    <ClInclude Include=".\Helpers\RWContract.h" />
+    <ClInclude Include=".\Entities\Powerup.h" />
+    <ClInclude Include=".\Helpers\SettingsHelper.h" />
+    <ClInclude Include=".\Helpers\TopScoreLoader.h" />
+    <ClInclude Include=".\Helpers\StaticDataHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Common\FallFuryStyles.xaml" />
+    <Page Include="Common\StandardStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HealthBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DirectXPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MenuItems\MenuItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Assets\Music\candyland_theme.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Assets\Music\game_over.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Assets\Music\game_won.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Assets\Music\magic_bean_theme.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Assets\Music\maintheme.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Assets\Music\nightmare_theme.wma">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Coding4Fun.FallFury_TemporaryKey.pfx" />
+    <None Include="FallFury_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Backgrounds\badhealth.png" />
+    <Image Include="Assets\Backgrounds\cloud_overlay_a.png" />
+    <Image Include="Assets\Backgrounds\cloud_overlay_b.png" />
+    <Image Include="Assets\Backgrounds\galaxy_overlay_a.png" />
+    <Image Include="Assets\Backgrounds\galaxy_overlay_b.png" />
+    <Image Include="Assets\Backgrounds\generic_blue_a.png" />
+    <Image Include="Assets\Backgrounds\generic_blue_b.png" />
+    <Image Include="Assets\Backgrounds\generic_dark_blue_a.png" />
+    <Image Include="Assets\Backgrounds\generic_dark_blue_b.png" />
+    <Image Include="Assets\Backgrounds\generic_red_a.png" />
+    <Image Include="Assets\Backgrounds\generic_red_b.png" />
+    <Image Include="Assets\Backgrounds\star_overlay_a.png" />
+    <Image Include="Assets\Backgrounds\star_overlay_b.png" />
+    <Image Include="Assets\Bear\bear_dead_body.png" />
+    <Image Include="Assets\Bear\bear_dead_head.png" />
+    <Image Include="Assets\Bear\bear_dead_leftarm.png" />
+    <Image Include="Assets\Bear\bear_dead_rightarm.png" />
+    <Image Include="Assets\Bear\bear_leftarm.png" />
+    <Image Include="Assets\Bear\bear_rightarm.png" />
+    <Image Include="Assets\Bear\full_body.png" />
+    <Image Include="Assets\Bear\winner_down.png" />
+    <Image Include="Assets\Bear\winner_up.png" />
+    <Image Include="Assets\FallFuryLogo.png" />
+    <Image Include="Assets\Icons\150x150Tile.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Icons\150x150Tile.scale-140.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Icons\150x150Tile.scale-180.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Icons\150x150Tile.scale-80.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Icons\30x30Tile.png" />
+    <Image Include="Assets\Icons\310x150Tile.scale-100.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="Assets\Icons\50x50Tile.png" />
+    <Image Include="Assets\HUD\buttonHud.png" />
+    <Image Include="Assets\HUD\clockHud.png" />
+    <Image Include="Assets\HUD\heartHud.png" />
+    <Image Include="Assets\HUD\pauseButton.png" />
+    <Image Include="Assets\Icons\SplashScreen.png" />
+    <Image Include="Assets\leftArrow.png" />
+    <Image Include="Assets\Medals\bronze.png" />
+    <Image Include="Assets\Medals\gold.png" />
+    <Image Include="Assets\Medals\silver.png" />
+    <Image Include="Assets\Misc\circle.png" />
+    <Image Include="Assets\Misc\large_logo.png" />
+    <Image Include="Assets\Misc\microparticle.png" />
+    <Image Include="Assets\Misc\project_logo.png" />
+    <Image Include="Assets\Monsters\demoboss1.png" />
+    <Image Include="Assets\Monsters\demoboss2.png" />
+    <Image Include="Assets\Monsters\demoboss3.png" />
+    <Image Include="Assets\Powerups\bubble.png" />
+    <Image Include="Assets\Powerups\cape.png" />
+    <Image Include="Assets\Powerups\helmet.png" />
+    <Image Include="Assets\Powerups\parachute.png" />
+    <Image Include="Assets\rightArrow.png" />
+    <Image Include="DDS\Bear\bear_body_left.dds" />
+    <Image Include="DDS\Bear\bear_body_right.dds" />
+    <Image Include="DDS\Bear\bear_headblink_left.dds" />
+    <Image Include="DDS\Bear\bear_headblink_right.dds" />
+    <Image Include="DDS\Bear\bear_head_hurt.dds" />
+    <Image Include="DDS\Bear\bear_head_left.dds" />
+    <Image Include="DDS\Bear\bear_head_right.dds" />
+    <Image Include="DDS\Bear\Customized\bear_cape.dds" />
+    <Image Include="DDS\Bear\Customized\bear_helmet.dds" />
+    <Image Include=".\DDS\Bear\Customized\bear_parachute_left.dds" />
+    <Image Include=".\DDS\Bear\Customized\bear_parachute_right.dds" />
+    <Image Include="DDS\Bear\Customized\bubble.dds" />
+    <Image Include="DDS\Bosses\boss04_01.dds" />
+    <Image Include="DDS\Bosses\boss04_02.dds" />
+    <Image Include="DDS\Bosses\boss04_03.dds" />
+    <Image Include="DDS\Bosses\boss05_01.dds" />
+    <Image Include="DDS\Bosses\boss05_02.dds" />
+    <Image Include="DDS\Bosses\boss05_03.dds" />
+    <Image Include="DDS\Bosses\boss06_01.dds" />
+    <Image Include="DDS\Bosses\boss06_02.dds" />
+    <Image Include="DDS\Bosses\boss06_03.dds" />
+    <Image Include="DDS\Bosses\boss07_01.dds" />
+    <Image Include="DDS\Bosses\boss07_02.dds" />
+    <Image Include="DDS\Bosses\boss07_03.dds" />
+    <Image Include="DDS\Bosses\boss07_04.dds" />
+    <Image Include="DDS\Bosses\boss08_01.dds" />
+    <Image Include="DDS\Bosses\boss08_02.dds" />
+    <Image Include="DDS\Bosses\boss08_03.dds" />
+    <Image Include="DDS\Bosses\boss09_01.dds" />
+    <Image Include="DDS\Bosses\boss09_02.dds" />
+    <Image Include="DDS\Bosses\boss09_03.dds" />
+    <Image Include="DDS\Bosses\boss10_01.dds" />
+    <Image Include="DDS\Bosses\boss10_02.dds" />
+    <Image Include="DDS\Bosses\boss11_01.dds" />
+    <Image Include="DDS\Bosses\boss11_02.dds" />
+    <Image Include="DDS\Bosses\boss11_03.dds" />
+    <Image Include="DDS\button.dds" />
+    <Image Include=".\DDS\Levels\Nightmare\spikesLarge.dds" />
+    <Image Include=".\DDS\Levels\Nightmare\spikesMedium.dds" />
+    <Image Include=".\DDS\Levels\Nightmare\spikesSmall.dds" />
+    <Image Include="DDS\Levels\Dream\TEST_backgroundDream_01.dds" />
+    <Image Include="DDS\Levels\Dream\TEST_backgroundDream_02.dds" />
+    <Image Include="DDS\Levels\Dream\TEST_obstacle1.dds" />
+    <Image Include="DDS\Levels\Dream\TEST_obstacle2.dds" />
+    <Image Include="DDS\Levels\MagicBean\obstacle01.dds" />
+    <Image Include="DDS\Levels\MagicBean\obstacle02.dds" />
+    <Image Include="DDS\Levels\MagicBean\obstacle03.dds" />
+    <Image Include="DDS\Levels\MagicBean\obstacle04.dds" />
+    <Image Include="DDS\Levels\MagicBean\obstacle05.dds" />
+    <Image Include=".\DDS\Bosses\boss01_1.dds" />
+    <Image Include=".\DDS\Bosses\boss01_2.dds" />
+    <Image Include=".\DDS\Bosses\boss01_3.dds" />
+    <Image Include=".\DDS\Bosses\boss02_01.dds" />
+    <Image Include=".\DDS\Bosses\boss02_02.dds" />
+    <Image Include=".\DDS\Bosses\boss02_03.dds" />
+    <Image Include=".\DDS\Bosses\boss03_01.dds" />
+    <Image Include=".\DDS\Bosses\boss03_02.dds" />
+    <Image Include="DDS\Levels\Nightmare\cloudBig.dds" />
+    <Image Include="DDS\Levels\Nightmare\spikeplat.dds" />
+    <Image Include="DDS\Levels\Space\obstacleSpace01.dds" />
+    <Image Include="DDS\Levels\Space\obstacleSpace02.dds" />
+    <Image Include="DDS\Levels\Space\obstacleSpace03.dds" />
+    <Image Include="DDS\Levels\Space\obstacleSpace04.dds" />
+    <Image Include="DDS\Levels\Space\obstacleSpace05.dds" />
+    <Image Include="DDS\Levels\Space\obstacleSpace06.dds" />
+    <Image Include="DDS\lightning.dds" />
+    <Image Include="DDS\monster.dds" />
+    <Image Include="DDS\ninjastar.dds" />
+    <Image Include="DDS\particle.dds" />
+    <Image Include="DDS\Powerups\powerupAxe.dds" />
+    <Image Include="DDS\Powerups\powerupBoomerang.dds" />
+    <Image Include="DDS\Powerups\powerupBubble.dds" />
+    <Image Include="DDS\Powerups\powerupCape.dds" />
+    <Image Include="DDS\Powerups\powerupHammer.dds" />
+    <Image Include="DDS\Powerups\powerupHealth.dds" />
+    <Image Include="DDS\Powerups\powerupHelmet.dds" />
+    <Image Include="DDS\Powerups\powerupKnife.dds" />
+    <Image Include="DDS\Powerups\powerupParachute.dds" />
+    <Image Include="DDS\Powerups\powerupPlasmaBall.dds" />
+    <Image Include="DDS\stuffing.dds" />
+    <Image Include="DDS\sparkle.dds" />
+    <Image Include="DDS\Weapons\axe.dds" />
+    <Image Include="DDS\Weapons\boomerang.dds" />
+    <Image Include="DDS\Weapons\fire01.dds" />
+    <Image Include="DDS\Weapons\fire02.dds" />
+    <Image Include="DDS\Weapons\fire03.dds" />
+    <Image Include="DDS\Weapons\hammer.dds" />
+    <Image Include="DDS\Weapons\knife.dds" />
+    <Image Include="DDS\Weapons\plasmaball.dds" />
+    <Image Include="DDS\Weapons\plasma_enemy.dds" />
+    <Image Include="DDS\Weapons\shock01.dds" />
+    <Image Include="DDS\Weapons\shock02.dds" />
+    <Image Include="DDS\Weapons\shock03.dds" />
+    <Image Include="MenuItems\double_arrow.png" />
+    <Image Include="MenuItems\menuexpanded.png" />
+    <Image Include="MenuItems\menuexpanded_2.png" />
+    <Image Include="MenuItems\menuitem.png" />
+    <Image Include="MenuItems\single_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\ScreenManager.h" />
+    <ClInclude Include=".\DXCore\DirectXLinker.h" />
+    <ClInclude Include=".\DXCore\DirectXBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\ScreenManager.cpp" />
+    <ClCompile Include=".\DXCore\DirectXBase.cpp" />
+    <ClCompile Include="GameScreens\GameCompleteScreen.cpp" />
+    <ClCompile Include="GameScreens\GenericCloudScreen.cpp" />
+    <ClCompile Include="App.xaml.cpp">
+      <DependentUpon>App.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include=".\DXCore\BasicLoader.cpp" />
+    <ClCompile Include=".\DXCore\DDSTextureLoader.cpp" />
+    <ClCompile Include=".\Characters\Bear.cpp" />
+    <ClCompile Include=".\Entities\Button.cpp" />
+    <ClCompile Include="Audio\AudioManager.cpp" />
+    <ClCompile Include="Audio\AudioEngine.cpp" />
+    <ClCompile Include="Characters\Livingentity.cpp" />
+    <ClCompile Include="Characters\Monster.cpp" />
+    <ClCompile Include="Controls\HealthBar.xaml.cpp">
+      <DependentUpon>Controls\HealthBar.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="DirectXPage.xaml.cpp">
+      <DependentUpon>DirectXPage.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include=".\GameScreens\GameScreenBase.cpp" />
+    <ClCompile Include="Entities\TopScore.cpp" />
+    <ClCompile Include="GameScreens\GameOverScreen.cpp" />
+    <ClCompile Include="GameScreens\GamePlayScreen.cpp" />
+    <ClCompile Include="GameScreens\MenuScreen.cpp" />
+    <ClCompile Include=".\GameScreens\GameWinScreen.cpp" />
+    <ClCompile Include="Helpers\Geometry.cpp" />
+    <ClCompile Include="Helpers\LocalDiagnostics.cpp" />
+    <ClCompile Include="Helpers\Timer.cpp" />
+    <ClCompile Include=".\Helpers\LevelDataLoader.cpp" />
+    <ClCompile Include="Audio\MediaStreamer.cpp" />
+    <ClCompile Include="MenuItems\MenuItem.xaml.cpp">
+      <DependentUpon>MenuItems\MenuItem.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\Particle.cpp" />
+    <ClCompile Include="ParticleSystem\ParticleCore.cpp" />
+    <ClCompile Include="ParticleSystem\ParticleSet.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include=".\DXCore\SpriteWorks.cpp" />
+    <ClCompile Include=".\Helpers\RWContract.cpp" />
+    <ClCompile Include=".\Entities\Powerup.cpp" />
+    <ClCompile Include=".\Helpers\SettingsHelper.cpp" />
+    <ClCompile Include=".\Helpers\TopScoreLoader.cpp" />
+    <ClCompile Include=".\Helpers\StaticDataHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\GeometryShader.gs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">Geometry</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">4.0</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</DisableOptimizations>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">false</DisableOptimizations>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">false</DisableOptimizations>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">false</DisableOptimizations>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</EnableDebuggingInformation>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">false</EnableDebuggingInformation>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">false</EnableDebuggingInformation>
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">false</EnableDebuggingInformation>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">Geometry</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Shaders\GeometryShader.vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">4.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">4.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Shaders\Instancing.vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">4.0_level_9_3</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">4.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">4.0_level_9_3</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">4.0_level_9_3</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shaders\PixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="Shaders\Replication.vs.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='ARM - Release|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|Win32'">4.0_level_9_1</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Debug|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|ARM'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - x64|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='ARM - Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Desktop - Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Levels\core.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Levels\Garden\bean_and_beyond.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Levels\GoGoTeddy\mind.xml" />
+    <Xml Include="Levels\GoGoTeddy\chasing_monsters.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Levels\GoGoTeddy\full_pilot.xml" />
+    <Xml Include="Levels\GoGoTeddy\the_beginning.xml" />
+    <Xml Include="Levels\Space\lightyears_away.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Levels\Space\lost_planet.xml" />
+    <Xml Include="Levels\Garden\bean_stalking.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Levels\Garden\thorn_apart.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="Levels\Space\stars_and_moons.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sounds\BearCry.wav" />
+    <Media Include="Assets\Sounds\Coin1.wav" />
+    <Media Include=".\Assets\Sounds\ParachutePowerup.wav" />
+    <Media Include=".\Assets\Sounds\HelmetPowerup.wav" />
+    <Media Include=".\Assets\Sounds\GenericPowerup.wav" />
+    <Media Include="Assets\Sounds\EnemyDead1.wav" />
+    <Media Include="Assets\Sounds\EnemyDead2.wav" />
+    <Media Include="Assets\Sounds\EnemyDead3.wav" />
+    <Media Include="Assets\Sounds\HardSoft1.wav" />
+    <Media Include="Assets\Sounds\HealthMax.wav" />
+    <Media Include="Assets\Sounds\Laugh1.wav" />
+    <Media Include="Assets\Sounds\Laugh2.wav" />
+    <Media Include="Assets\Sounds\Laugh3.wav" />
+    <Media Include="Assets\Sounds\MenuSlide.wav" />
+    <Media Include="Assets\Sounds\MenuTap.wav" />
+    <Media Include="Assets\Sounds\Ouch1.wav" />
+    <Media Include="Assets\Sounds\Ouch2.wav" />
+    <Media Include="Assets\Sounds\Ouch3.wav" />
+    <Media Include="Assets\Sounds\SharpSoft1.wav" />
+    <Media Include="Assets\Sounds\Wind.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="FallFury.XMLReader\FallFury.XMLReader\FallFury.XMLReader.csproj">
+      <Project>{73904823-7d1f-48e7-91de-22e89368e6d5}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
